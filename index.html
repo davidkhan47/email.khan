@@ -1,0 +1,470 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Demystifying Email Design</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<style>
+    hr.hr1 {
+        border: 1px solid #FDC258;
+        background-color: #FDC258;
+        margin-top: 17px;
+    }
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        max-width: 700px;
+        margin: 0 auto;
+        font-family: Tahoma, Geneva, sans-serif;
+    }
+
+    table {
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+        border-spacing: 0;
+    }
+
+    tbody {
+        width: 100%;
+    }
+
+    a {
+        text-decoration: none;
+        color: #ffff;
+    }
+
+    .head {
+        display: block;
+        height: 66px;
+        width: 100%;
+        background-image: url(img/image3.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #F62F2F;
+    }
+
+    .block__1 {
+        margin: 0;
+        background-color: #F62F2F;
+        padding: 25px 0 100px;
+        display: block;
+    }
+
+    .mr-auto {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .home_img {
+        display: block;
+        height: 148px;
+        width: 252px;
+        background-image: url(img/image2.png);
+        background-repeat: no-repeat;
+        margin: 0 auto;
+    }
+
+    .block__2>td {
+        margin-top: -26px;
+        background: rgba(255, 255, 255, 0.9);
+        backdrop-filter: blur(30px);
+        border-radius: 8px;
+        margin-top: -50px;
+        display: block;
+        padding: 23px 0 35px;
+    }
+
+    .block__2 .mr-auto {
+        width: 93%;
+        padding-bottom: 76px;
+    }
+
+    .block__2 .icon__box td {
+        display: inline-block;
+        width: 20%;
+        margin-left: 0px;
+    }
+
+    .icon__box img,
+    .icon__box span {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+
+    }
+
+    .flex-item {
+        border: 1px solid #FDC258;
+        border-radius: 8px;
+        padding: 18px 20px 17px;
+        width: 200px;
+        display: inline-block;
+        margin: 0 auto;
+    }
+
+    .active {
+        margin: 0 10px;
+    }
+
+    .wrap {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .iconn {
+        margin-left: 17px;
+    }
+
+    .mr-btn {
+        margin: 0 20% 0 20%;
+
+    }
+
+    @media(max-width: 400px) {
+        .head {
+            display: inline-block;
+        }
+
+        .home-img {
+            height: 50px;
+            width: 50px;
+        }
+
+        .block {
+            display: none;
+        }
+
+        .flex-item {
+            display: block;
+            margin: 10% 0;
+            width: 100%;
+        }
+
+        .text {
+            border-bottom: 1px solid #FDC258;
+        }
+
+        .pd-btn {
+            padding: 0;
+        }
+
+        .imgh {
+            display: none !important;
+            margin: auto;
+        }
+
+        .txt {
+            display: block;
+            padding-bottom: 10px
+        }
+    }
+</style>
+
+<body class="wrap">
+    <table style="max-width: 700px">
+        <tbody>
+            <span class="head">
+            </span>
+
+
+
+
+            <tr class="block__1">
+                <td class="mr-auto">
+                    <table class="mr-auto">
+                        <td>
+                            <table>
+                                <tr style="display:block; margin-bottom: 15px;">
+                                    <td>
+                                        <span
+                                            style="font-size: 20px; font-weight: 900; color: #FFFFFF;line-height: 121%">Ведущий
+                                            сервис для<br>
+                                            бронирования жилья по России</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span style="color: #ffff;font-size: 14px;line-height: 129.5%">При размещении
+                                            объекта<br>
+                                            комиссия брони для собственников 0%,<br>
+                                            все контакты гостей остаются у вас </span>
+                                    </td>
+
+
+                                </tr>
+                            </table>
+                        </td>
+                        <td class="block">
+                            <span class="home_img"></span>
+                        </td>
+                    </table>
+                </td>
+            </tr>
+
+            <tr class="block__2">
+                <td class="mr-auto">
+                    <table class="icon__box">
+                        <tr>
+                            <td>
+                                <img src="img/resurs.png" alt="" style="width: 56px; height: 73px;">
+                                <span style="font-size: 12px;line-height: 14px;color: #556F88;">Работаем<br> по всей
+                                    России</span>
+                            </td>
+                            <td>
+                                <img src="img/persom.png" alt="" style="width: 56px; height: 73px;">
+                                <span style="font-size: 12px;line-height: 14px;color: #556F88;">Более <br>30 000
+                                    клиентов</span>
+                            </td>
+                            <td>
+                                <img src="img/naushnik.png" alt="" style="width: 56px; height: 73px;">
+                                <span style="font-size: 12px;line-height: 14px;color: #556F88;">Клиентская<br>
+                                    поддержка</span>
+                            </td>
+                            <td>
+                                <img src="img/hause.png" alt="" style="width: 56px; height: 73px;">
+                                <span style="font-size: 12px;line-height: 14px;color: #556F88;">Более 1 000
+                                    <br>бронирований<br> в сутки</span>
+                            </td>
+                            <td>
+                                <img src="img/kordinata.png" alt="" style="width: 56px; height: 73px;">
+                                <span style="font-size: 12px;line-height: 14px;color: #556F88;">Топовые места<br> в
+                                    поисковой <br>выдаче</span>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <tbody>
+            <tr>
+                <td style="font-size: 20px; color: #21262B; font-weight: 900;text-align: center;">
+                    Стоимость
+                </td>
+            </tr>
+            <tr>
+                <td
+                    style="font-size: 14px; color: #556F88; text-align: center;max-width: 454px; display: block; margin: 0 auto; line-height: 129.5%;padding-bottom: 42px;">
+                    Стоимость размещения объектов будет зависеть от выбранного вами тарифа. Вы платите абонентскую плату
+                    всего 1 раз в год, комиссия за последующие бронирования не взымается</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <tbody>
+            <tr class="wrap">
+                <td class="flex-item">
+                    <span class="text"><span class="h4"
+                            style="font-size: 12px; color: #21262B; font-weight: bold;">Размещение</span><br>
+                        <span class="h2" style="font-size: 18px; font-weight: bold; color: #21262B;">5 000 - 7
+                            000</span>
+                        <span style="font-size: 12px;">р/год</span></span>
+                    <hr class="hr1">
+                    <a href="" class="pd-btn"
+                        style="background: #F62F2F;border-radius: 4px;  padding: 5px 26px;display: block;margin-top: 118px; text-align: center;">Разместить</a>
+                </td>
+
+                <td class="flex-item active">
+                    <span class="h4" style="font-size: 12px; color: #21262B; font-weight: bold;">ТОП 20</span><br>
+                    <span class="h2" style="font-size: 18px; letter-spacing: -1px; font-weight: bold; color: #21262B;">8
+                        000 - 25 000</span>
+                    <span style="font-size: 12px;">р/год</span>
+                    <hr class="hr1">
+                    <a href=""
+                        style="background: #F62F2F;border-radius: 4px;  padding: 5px 26px;display: block; margin-top: 118px;  text-align: center;">Разместить</a>
+                </td>
+
+                <td class="flex-item">
+                    <span class="h4" style="font-size: 12px; color: #21262B; font-weight: bold;">Баннер</span><br>
+                    <span class="h2"
+                        style="font-size: 18px; letter-spacing: -2px; font-weight: bold; color: #21262B;">10 000 - 35
+                        000 </span>
+                    <span style="font-size: 12px;">р/год</span>
+                    <hr class="hr1">
+                    <a href=""
+                        style="background: #F62F2F;border-radius: 4px;  padding: 5px 26px;display: block;margin-top: 118px; text-align: center;">Разместить</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="wrap">
+                    <span style="color: #556F88;  font-size: 10px; margin: 22px 0; display: block;">* Стоимость зависит
+                        от региона и места размещения </span><span
+                        style="font-size:12px;color :#556F88;max-width: 461px;display: block; line-height: 150%;margin-top: 39px;padding-bottom: 42px;">Наши
+                        сайты занимают первые места в поисковой выдаче Яндекс и Google. Статистика просмотров в период
+                        сезона - более 3 000 000 в месяц</span>
+                </td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr
+                style="display: block;background: #F62F2F; border-radius: 8px;width: 100%;margin: 0 auto;padding: 30px 35px;">
+                <td
+                    style="font-weight: 900;font-size: 20px; line-height: 121%; color: #FFFFFF; display: block; width:60%;margin: 0 auto; text-align: center;">
+                    Наш сервис имеет ряд преимуществ перед конкурентами
+                </td>
+                <td
+                    style="font-size: 14px;line-height: 129.5%;  text-align: center;   color: #FFFFFF;width:80%;margin: 0 auto; display: block;margin-top: 20px;">
+                    Вы платите только абонентскую плату за год, комиссия за бронирование номеров составляет 0%. С Вами
+                    работает региональный менеджер, который живет
+                    в вашем городе и осуществляет поддержку круглый год. Также вы получаете помощь в составлении
+                    продающего описания вашего объекта
+                    и качественное фото при необходимости</td>
+            </tr>
+        </tbody>
+    </table>
+    <table style="margin-top: 80px;">
+        <tbody>
+            <tr>
+                <td style="font-size: 20px; color: #21262B; font-weight: 900;text-align: center;">
+                    Вы получаете от работы с нами:
+                </td>
+            </tr>
+            <tr>
+                <td
+                    style="font-size: 14px; color: #556F88; text-align: center;max-width: 600px; display: block; margin: 44px auto 20px auto; line-height: 129.5%;padding-bottom: 42px;">
+                    Наш сервис создан для путешествий по всей России. Мы распределяем потоки туристов по объектам и
+                    создаем выгодные условия для собственников, максимально упростив работу с сервисом </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table style="display: block; margin: 0 auto; max-width: 630px;">
+        <tbody>
+            <tr>
+                <td style="border-left: 1px solid #FDC258; padding: 0 0 0 20px; max-width: 400px;" class="txt">
+                    <span style="display:inline-block; font-style: normal;
+                    font-weight: 900;
+                    font-size: 16px;
+                    margin-bottom: 10px;
+                    color: background: #21262B;">Выгоды</span><br>
+                    <span style="display: inline-block; color: #556F88;font-size: 14px; line-height: 16px;" class="txt">
+                        Комиссия за бронирование 0%<br><br>
+                        Вы имеете доступ к Личному кабинету, где сами планируете время и количество гостей<br><br>
+                        Клиенты связываются с вами напрямую по вашему номеру телефона<br><br>
+                        Все контакты гостей остаются у вас
+                    </span>
+                </td>
+
+                <td background="img/bag.png" width="193px" height="220px;"
+                    style="display: block; margin: 0; width: 220px; background-repeat: no-repeat;" class="imgh"></td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <table style="display: block; margin:40px  auto 0 auto; max-width: 630px;">
+        <tbody>
+            <tr>
+                <td background="img/tv.png" width="160px" height="174px;"
+                    style="display: block; width: 220px; background-repeat: no-repeat;" class="imgh"></td>
+
+                <td class="txt" style="border-right: 1px solid #FDC258; padding: 0 20px 0 0; max-width: 400px;">
+                    <span style="display:inline-block; font-style: normal;
+                    font-weight: 900;
+                    font-size: 16px;
+                    margin-bottom: 10px;
+                    color: background: #21262B;">Поддержка</span><br>
+                    <span style="display: inline-block; font-size:14px; color: #556F88; line-height: 16px;" class="txt">
+                        Помощь профессионалов в составлении продающего описания вашего объекта<br><br>
+                        Помощь в заполнении карточки объекта в ЛК.Вы заполняете бриф и отправляете фото объекта вашему
+                        менеждеру, он сам грузит данные в карточку объекта (этот пункт под вопросом)<br><br>
+                        С вами работает региональный менеджер, который живет в вашем городе и осуществляет поддержку
+                        круглый год
+                    </span>
+                </td>
+
+            </tr>
+        </tbody>
+    </table>
+
+
+    <table style="display: block; margin: 0 auto; max-width: 630px; margin-top: 40px;">
+        <tbody>
+            <tr>
+                <td class="txt" style="border-left: 1px solid #FDC258; padding: 0 0 0 20px; max-width: 400px;">
+                    <span style="display:inline-block; font-style: normal;
+                    font-weight: 900;
+                    font-size: 16px;
+                    margin-bottom: 10px;
+                    color: background: #21262B;">Оплата</span><br>
+                    <span style="display: inline-block; color: #556F88;font-size: 14px; line-height: 16px;" class="txt">
+                        Мы помогаем подобрать самый подходящий
+                        для вас тариф<br><br>
+                        Оплата тарифа производится 1 раз в год<br><br>
+                        Никаких дополнительных комиссий и платежей<br><br>
+                        Оплата производится удобным для вас способом
+                    </span>
+                </td>
+
+                <td background="img/pc.png" width="193px" height="220px;"
+                    style="display: block; margin: 0; width: 220px; background-repeat: no-repeat;" class="imgh"></td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <table style="margin: 20px auto 0 auto; width: 90%; text-align: center; line-height: 2;">
+        <tbody>
+            <tr>
+                <td>
+                    <a href="#" class="mr-btn"
+                        style="display:inline-block; padding: 5px 20px; background-color: #F62F2F; border-radius: 4px; margin-bottom: 10px;">Связаться
+                        с менеджером</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table style="background: #FDC258; padding: 20px 0;padding-bottom: 19px;">
+        <tbody style="display: block; margin: 0 auto;">
+            <tr style="text-align: center; margin: 0 auto;display: block; width: 20%;">
+                <td>
+                    <a href="#" class="iconmas"><img src="img/fc.png"></a>
+                </td>
+                <td>
+                    <a href="#" class="iconn"><img src="img/insta.png"></a>
+                </td>
+                <td>
+                    <a href="#" class="iconn"><img src="img/vk.png"></a>
+                </td>
+                <td>
+                    <a href="#" class="iconn"><img src="img/yt.png"></a>
+                </td>
+            </tr>
+        </tbody>
+        <tbody style="">
+            <tr>
+                <td style="max-width: 342px;
+                font-size: 12px;
+                color: #21262B;
+                line-height: 14px;
+                text-align: center;
+                display: block;
+                margin: 0 auto;
+                margin-top: 19px;">
+                    © Copyright, 2020
+                </td>
+            </tr>
+            <tr>
+                <td
+                    style=" display: block;max-width: 342px; font-size: 12px; color: #21262B;line-height: 14px;text-align: center;margin: 0 auto;">
+                    Вы получили данную рассылку, так как являетесь клиентом или подписчиком. <a href="#"
+                        style="color:#21262B; text-decoration: underline;">Отказаться от рассылки</a></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
